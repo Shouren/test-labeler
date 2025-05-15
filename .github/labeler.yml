@@ -3,7 +3,7 @@
 "kind/cleanup":
   - '^chore(\(.*\))?:.*'
 "kind/documentation":
-  - '^docs?(\(.*\))?:.*'
+  - '^docs(\(.*\))?:.*'
 "kind/enhancement":
   - '^perf(\(.*\))?:.*'
 "kind/feature":

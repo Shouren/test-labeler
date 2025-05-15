@@ -5,7 +5,7 @@ on:
 
 permissions:
   pull-requests: write
-  contents: read
+  contents: write
 
 jobs:
   triage:
@@ -19,3 +19,5 @@ jobs:
         include-title: 1
         include-body: 0
         repo-token: ${{ github.token }}
+      env:
+        LOG_LEVEL: debug

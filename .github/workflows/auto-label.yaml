@@ -4,8 +4,9 @@ on:
     types: [opened, edited]
 
 permissions:
+  issues: write
   pull-requests: write
-  contents: write
+  contents: read
 
 jobs:
   triage:

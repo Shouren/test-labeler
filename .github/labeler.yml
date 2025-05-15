@@ -1,0 +1,10 @@
+"kind/bug":
+  - '^fix(\(.*\))?:.*'
+"kind/cleanup":
+  - '^chore(\(.*\))?:.*'
+"kind/documentation":
+  - '^docs?(\(.*\))?:.*'
+"kind/enhancement":
+  - '^perf(\(.*\))?:.*'
+"kind/feature":
+  - '^feat(\(.*\))?:.*'

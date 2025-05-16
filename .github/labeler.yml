@@ -1,10 +1,12 @@
 "kind/bug":
-  - '^fix(\(.*\))?:.*'
+  - '^[Ff]ix(\(.*\))?:?.*'
 "kind/cleanup":
-  - '^chore(\(.*\))?:.*'
+  - '^[Cc]hore(\(.*\))?:?.*'
 "kind/documentation":
-  - '^docs?(\(.*\))?:.*'
+  - '^[Dd]ocs?(\(.*\))?:?.*'
 "kind/enhancement":
-  - '^perf(\(.*\))?:.*'
+  - '^[Pp]erf(\(.*\))?:?.*'
+  - '^[Rr]efactor(\(.*\))?:?.*'
 "kind/feature":
-  - '^feat(\(.*\))?:.*'
+  - '^[Ff]eat(\(.*\))?:?.*'
+
